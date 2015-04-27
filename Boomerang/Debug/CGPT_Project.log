@@ -1,0 +1,44 @@
+﻿Build started 12/10/2013 11:38:46 AM.
+     1>Project "D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\CGPT_Project.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Boomerang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FxCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\Microsoft DirectX SDK (February 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt D3DApp.cpp
+         D3DApp.cpp
+     1>d:\program files (x86)\mictosoft visual studio 11.0 projects\boomerang\d3dapp.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\program files (x86)\mictosoft visual studio 11.0 projects\boomerang\d3dapp.cpp(646): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\program files (x86)\mictosoft visual studio 11.0 projects\boomerang\d3dapp.cpp(867): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\program files (x86)\mictosoft visual studio 11.0 projects\boomerang\d3dapp.cpp(1160): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\Debug\Boomerang.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10.lib d3dx10d.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\Debug\Boomerang.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\Debug\Boomerang.lib" /MACHINE:X86 Debug\AbsD3D.obj
+         Debug\AIManager.obj
+         Debug\Camera.obj
+         Debug\CollisonDetection.obj
+         Debug\D3DApp.obj
+         Debug\D3DUtil.obj
+         Debug\FX.obj
+         Debug\InputLayout.obj
+         Debug\MeshManager.obj
+         Debug\ParticleSystems.obj
+         Debug\RenderToTex.obj
+         Debug\Sky.obj
+         Debug\TexManager.obj
+         Debug\Timer.obj
+         Debug\World.obj
+         CGPT_Project.vcxproj -> D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\Debug\Boomerang.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Boomerang.unsuccessfulbuild".
+         Touching "Debug\Boomerang.lastbuildstate".
+     1>Done Building Project "D:\Program Files (x86)\Mictosoft Visual Studio 11.0 Projects\Boomerang\CGPT_Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.75
